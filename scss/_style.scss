@@ -1,0 +1,108 @@
+@function imgUrl($file, $path: "background") {
+    @return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+header {
+    .header-top-bar {
+        background: $black !important;
+        padding: 17px 0;
+    }
+
+    .banner {
+        background: linear-gradient($secondary 0 80%, #0b2828 80% 100%);
+
+        .hero {
+            padding: 151px 0 176px;
+
+            .heroHeading {
+                line-height: 1.1;
+                font-weight: 900;
+                letter-spacing: -0.03em;
+                text-align: center;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    background: imgUrl("brushline.png", "lib");
+                    position: absolute;
+                    bottom: 0;
+                    height: 11px;
+                    width: 427px;
+                }
+            }
+        }
+
+        .about-us {
+            background: linear-gradient(100deg, rgba(0, 0, 0, 0) 0 6%, #fff 6% 90%, rgba(0, 0, 0, 0) 90% 100%);
+
+            .about-us-img {
+                margin-top: -67px;
+            }
+        }
+    }
+}
+
+section.what-happens-now {
+    background: linear-gradient(180deg, #0b2828 16.67%, #21003f 58.33%, #9d34e9 100%);
+    padding: 188px 0;
+
+    .form {
+        padding: 77px 96px;
+        background: rgba(255, 255, 255, 0.05);
+        color: $white;
+        border-radius: 20px;
+
+        form {
+            margin-top: 55px;
+            background: $white;
+            border-radius: 20px;
+            padding: 31px 43px;
+
+            .input-wrapper {
+                background: $light;
+                border-radius: 6px;
+                padding: 10px 13px 6px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 83px;
+                
+                label {
+                    padding-bottom: 7px;
+                    text-transform: uppercase;
+                    color: $tertiary;
+                    font-size: 11px;
+                    font-weight: 700;
+                }
+                
+                input:focus {
+                    box-shadow: none;
+                    outline: none;
+                }
+                
+                .form-control {
+                    border: 0;
+                    background: none;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    line-height: 1;
+                    padding: 0;
+                    color: $grey;
+
+                    &::placeholder {
+                        color: $grey;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 0.875rem;
+    background-color: #221f1f;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.61rem;
+    }
+}
