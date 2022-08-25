@@ -84,6 +84,7 @@ include __DIR__ . '/header.php';
                 </div>
             </form>
         </div>
+        <div class="fs-1 fw-900 letter-spacing-n03 py-5 line-height-1">What happens now?</div>
     </div>
 </section>
 
