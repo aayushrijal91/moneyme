@@ -23,7 +23,7 @@ header {
                 padding: 151px 0 86px;
             }
 
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(xl) {
                 padding: 151px 0 176px;
             }
 
@@ -46,6 +46,10 @@ header {
                     }
                 }
                 
+                @include media-breakpoint-only(lg) {
+                    font-size: 5rem !important;
+                }
+
                 @include media-breakpoint-down(sm) {
                     line-height: 1;
                     font-size: 2.5rem !important;
@@ -66,15 +70,18 @@ header {
                 }
             }
 
+            @include media-breakpoint-down(xl) {
+                padding: 33px 70px;
+                text-align: center;
+                background: linear-gradient(100deg, rgba(0, 0, 0, 0) 0 9%, $white 9% 92%, rgba(0, 0, 0, 0) 92% 100%);
+            }
+
             @include media-breakpoint-down(lg) {
                 padding: 33px 70px;
-                background: linear-gradient(100deg, rgba(0, 0, 0, 0) 0 9%, $white 9% 92%, rgba(0, 0, 0, 0) 92% 100%);
-                text-align: center;
             }
 
             @include media-breakpoint-down(sm) {
                 margin: 0px;
-                text-align: center;
                 padding: 33px;
                 background: linear-gradient(95deg, rgba(0, 0, 0, 0) 0 6%, $white 6% 94%, rgba(0, 0, 0, 0) 94% 100%);
             }
@@ -91,7 +98,7 @@ section.what-happens-now {
         padding: 128px 0 0;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         padding: 188px 0 0;
     }
 
@@ -105,12 +112,16 @@ section.what-happens-now {
             padding: 57px 24px;
         }
 
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(xl) {
             padding: 57px 48px;
         }
 
         @include media-breakpoint-up(xxl) {
             padding: 77px 96px;
+        }
+
+        @include media-breakpoint-down(xl) {
+            margin-top: 80px;
         }
 
         @include media-breakpoint-down(lg) {
@@ -200,7 +211,7 @@ section.quick-contact-wrapper {
     }
 
     .quick-contact {
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(xl) {
             background: linear-gradient(80deg, rgba(0, 0, 0, 0) 0 46%, $white 46% 95%, rgba(0, 0, 0, 0) 95% 100%);
         }
 
@@ -209,7 +220,7 @@ section.quick-contact-wrapper {
                 margin-top: 50px;
             }
 
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(xl) {
                 margin-top: -69px;
             }
         }
@@ -217,11 +228,14 @@ section.quick-contact-wrapper {
         .quick-contact-content {
             padding: 33px;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xl) {
                 background: $white;
                 border-radius: 20px;
                 text-align: center;
 
+            }
+            
+            @include media-breakpoint-down(md) {
                 .fs-3, .fs-4 {
                     font-size: 1rem !important;
                 }
@@ -238,7 +252,7 @@ footer {
         padding: 129px 0 30px;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         padding: 189px 0 30px;
     }
 }
