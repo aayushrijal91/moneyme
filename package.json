@@ -14,8 +14,7 @@
         "gulp-terser": "^2.1.0",
         "jquery": "^3.6.0",
         "nodemon": "^2.0.19",
-        "sass": "^1.53.0",
-        "slick-carousel": "^1.8.1"
+        "sass": "^1.53.0"
     },
     "scripts": {
         "start": "nodemon --exec \"gulp watch\" --watch ./gulpfile.js",
