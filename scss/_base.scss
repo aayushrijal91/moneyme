@@ -7,6 +7,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-color: $light-grey;
 }
 
 .btn:focus {
@@ -44,6 +45,10 @@ body {
 
 .letter-spacing-n03 {
     letter-spacing: -0.03em;
+}
+
+.opacity-05 {
+    opacity: 0.5 !important;
 }
 
 //Go To Top

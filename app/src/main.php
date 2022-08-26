@@ -84,7 +84,56 @@ include __DIR__ . '/header.php';
                 </div>
             </form>
         </div>
-        <div class="fs-1 fw-900 letter-spacing-n03 py-5 line-height-1">What happens now?</div>
+        <div class="py-12">
+            <div class="fs-1 fw-900 letter-spacing-n03 line-height-1 text-center text-white">Multi-Award Winning<br> LoanOptions.ai</div>
+            <div class="row justify-content-center pt-6">
+                <div class="col-12 col-xl-9">
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <div class="row gx-0 align-items-center">
+                                <div class="col-auto"><?= renderImg("aussie-fintech.png", "logo") ?></div>
+                                <div class="col text-white">
+                                    <div class="fs-6 opacity-05">Australia’s first AI-powered loan marketplace start-up</div>
+                                    <div class="fs-4 fw-700 line-height-1">Turns over $2.5 million</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="row gx-0 align-items-center">
+                                <div class="col-auto"><?= renderImg("aussie-fintech.png", "logo") ?></div>
+                                <div class="col text-white">
+                                    <div class="fs-6 opacity-05">Australia’s first AI-powered loan marketplace start-up</div>
+                                    <div class="fs-4 fw-700 line-height-1">Turns over $2.5 million</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="quick-contact-wrapper">
+    <div class="container">
+        <div class="row quick-contact h-100">
+            <div class="col-auto"><?= renderImg("quick-contact.png", "lib", "about-us-img") ?></div>
+            <div class="col h-inherit">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="fs-3 fw-900 text-italic px-3">Want to speak to our team now?</div>
+                        <div class="fs-1 text-italic fw-900 line-height-1 letter-spacing-n03">Call Today</div>
+                        <div class="letter-spacing-n02 fs-4 fw-600 pt-3 text-dark">We are available 8:30am-5:30pm everyday</div>
+                        <div class="pt-5">
+                            <a href="tel:<?= $phone_number ?>" class="btn h-100 py-4 px-5 d-inline btn-primary text-white form-control rounded-6 fw-700 fs-5">
+                                Call <?= $phone_number ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

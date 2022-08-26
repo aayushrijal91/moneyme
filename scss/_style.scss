@@ -43,8 +43,8 @@ header {
 }
 
 section.what-happens-now {
-    background: linear-gradient(180deg, #0b2828 16.67%, #21003f 58.33%, #9d34e9 100%);
-    padding: 188px 0;
+    background: linear-gradient(180deg, #0b2828 16.67%, #21003f 58.33%, $primary 100%);
+    padding: 188px 0 0;
 
     .form {
         padding: 77px 96px;
@@ -66,7 +66,7 @@ section.what-happens-now {
                 flex-direction: column;
                 justify-content: center;
                 height: 83px;
-                
+
                 label {
                     padding-bottom: 7px;
                     text-transform: uppercase;
@@ -74,12 +74,12 @@ section.what-happens-now {
                     font-size: 11px;
                     font-weight: 700;
                 }
-                
+
                 input:focus {
                     box-shadow: none;
                     outline: none;
                 }
-                
+
                 .form-control {
                     border: 0;
                     background: none;
@@ -98,9 +98,21 @@ section.what-happens-now {
     }
 }
 
+section.quick-contact-wrapper {
+    background: linear-gradient(180deg, $primary 0 50%, $light-grey 50% 100%);
+
+    .quick-contact {
+        background: linear-gradient(80deg, rgba(0, 0, 0, 0) 0 46%, $white 46% 90%, rgba(0, 0, 0, 0) 90% 100%);
+
+        .about-us-img {
+            margin-top: -69px;
+        }
+    }
+}
+
 footer {
+    padding: 189px 0 30px;
     font-size: 0.875rem;
-    background-color: #221f1f;
 
     @include media-breakpoint-down(sm) {
         font-size: 0.61rem;
