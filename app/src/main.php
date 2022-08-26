@@ -22,7 +22,6 @@ include __DIR__ . '/header.php';
     <div class="banner">
         <div class="hero">
             <div class="container">
-
                 <div class="row justify-content-center">
                     <div class="col-auto">
                         <div class="d-md-none letter-spacing-n03 fw-900 text-center fs-5 pb-4">Sorry, we were not able to find a<br> suitable loan option for you just yet...</div>
@@ -42,8 +41,8 @@ include __DIR__ . '/header.php';
                             <div class="fs-3 fw-900 text-italic px-3">LoanOptions.ai</div>
                             <div class="fs-1 text-italic fw-900 line-height-1 letter-spacing-n03 d-none d-md-block">Who are we?</div>
                             <div class="fs-1 fw-900 line-height-1 letter-spacing-n03 d-md-none">Partnership</div>
-                            <div class="letter-spacing-n02 fs-4 fw-600 pt-4 d-none d-md-block">We are Australia’s first AI-powered loan comparison platform. Using data-driven proprietary technology, we can pre-approve you with the most competitive loans from over 60 banks and lenders personalised to your individual circumstances.</div>
-                            <div class="letter-spacing-n02 fw-700 text-dark pt-3">Our partner’s AI-powered technology is guaranteed to find you the best suitor for your loan application by searching over 60 lenders!</div>
+                            <div class="letter-spacing-n02 fs-4 fw-600 pt-3 pt-xxl-4 d-none d-md-block">We are Australia’s first AI-powered loan comparison platform. Using data-driven proprietary technology, we can pre-approve you with the most competitive loans from over 60 banks and lenders personalised to your individual circumstances.</div>
+                            <div class="letter-spacing-n02 fw-700 text-dark pt-3 d-md-none">Our partner’s AI-powered technology is guaranteed to find you the best suitor for your loan application by searching over 60 lenders!</div>
                         </div>
                     </div>
                 </div>
@@ -125,7 +124,7 @@ include __DIR__ . '/header.php';
         <div class="py-12 d-none d-md-block">
             <div class="fs-1 fw-900 letter-spacing-n03 line-height-1 text-center text-white">Multi-Award Winning<br> LoanOptions.ai</div>
             <div class="row justify-content-center pt-6">
-                <div class="col-12 col-xl-9">
+                <div class="col-12 col-xl-10 col-xxl-9">
                     <div class="row justify-content-between">
                         <div class="col-auto">
                             <div class="row gx-0 align-items-center">
@@ -158,12 +157,12 @@ include __DIR__ . '/header.php';
             <div class="col-auto h-inherit"><?= renderImg("quick-contact.png", "lib", "about-us-img") ?></div>
             <div class="col h-inherit">
                 <div class="row align-items-center h-100 mx-2 my-3 m-md-0">
-                    <div class="col-12 col-lg-10 quick-contact-content h-inherit">
-                        <div class="fs-3 fw-900 text-italic px-3">Want to speak to our team now?</div>
+                    <div class="col-12 col-xxl-10 quick-contact-content h-inherit">
+                        <div class="fs-3 fw-900 text-italic">Want to speak to our team now?</div>
                         <div class="fs-1 text-italic fw-900 line-height-1 letter-spacing-n03">Call Today</div>
                         <div class="letter-spacing-n02 fs-4 fw-600 pt-3 text-dark">We are available 8:30am-5:30pm everyday</div>
-                        <div class="pt-4 pt-md-5">
-                            <a href="tel:<?= $phone_number ?>" class="btn btn-primary py-3 py-md-4 d-block fs-5 fw-700 rounded-6">
+                        <div class="pt-4 pt-xxl-5 d-lg-inline-block">
+                            <a href="tel:<?= $phone_number ?>" class="btn btn-primary py-3 py-md-4 px-lg-5 d-block fs-5 fw-700 rounded-6">
                                 Call <?= $phone_number ?>
                             </a>
                         </div>
