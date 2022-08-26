@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 <header>
     <div class="header-top-bar">
         <div class="container">
-            <div class="row justify-content-center justify-content-lg-between align-items-center">
+            <div class="row justify-content-center justify-content-md-between align-items-center">
                 <div class="col-auto">
                     <a href="./">
                         <?= renderImg("logo.png", "logo", "d-none d-md-block") ?>
@@ -33,7 +33,7 @@ include __DIR__ . '/header.php';
             </div>
         </div>
         <div class="container">
-            <?= renderImg("about-us.png", "lib", "w-100 d-md-none py-4") ?>
+            <?= renderImg("about-us.png", "lib", "w-100 d-lg-none py-4") ?>
             <div class="row about-us h-100">
                 <div class="col h-inherit">
                     <div class="row justify-content-end h-100 align-items-center">
@@ -46,7 +46,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-auto d-none d-md-block"><?= renderImg("about-us.png", "lib", "about-us-img") ?></div>
+                <div class="col-auto d-none d-lg-block"><?= renderImg("about-us.png", "lib", "about-us-img") ?></div>
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@ include __DIR__ . '/header.php';
 
 <section class="what-happens-now">
     <div class="container">
-        <div class="d-md-none">
+        <div class="d-lg-none">
             <div class="fs-1 fw-900 letter-spacing-n03 line-height-1 text-center text-white"><div class="text-secondary">Multi-Award Winning</div> LoanOptions.ai</div>
             <div class="row justify-content-center pt-5 pt-md-6">
                 <div class="col-10 col-xl-9">
@@ -121,7 +121,7 @@ include __DIR__ . '/header.php';
                 </div>
             </form>
         </div>
-        <div class="py-12 d-none d-md-block">
+        <div class="py-12 d-none d-lg-block">
             <div class="fs-1 fw-900 letter-spacing-n03 line-height-1 text-center text-white">Multi-Award Winning<br> LoanOptions.ai</div>
             <div class="row justify-content-center pt-6">
                 <div class="col-12 col-xl-10 col-xxl-9">
@@ -156,13 +156,13 @@ include __DIR__ . '/header.php';
         <div class="row quick-contact h-100">
             <div class="col-auto h-inherit"><?= renderImg("quick-contact.png", "lib", "about-us-img") ?></div>
             <div class="col h-inherit">
-                <div class="row align-items-center h-100 mx-2 my-3 m-md-0">
+                <div class="row align-items-center h-100 mx-2 my-3 mx-md-0 my-lg-0">
                     <div class="col-12 col-xxl-10 quick-contact-content h-inherit">
                         <div class="fs-3 fw-900 text-italic">Want to speak to our team now?</div>
                         <div class="fs-1 text-italic fw-900 line-height-1 letter-spacing-n03">Call Today</div>
                         <div class="letter-spacing-n02 fs-4 fw-600 pt-3 text-dark">We are available 8:30am-5:30pm everyday</div>
-                        <div class="pt-4 pt-xxl-5 d-lg-inline-block">
-                            <a href="tel:<?= $phone_number ?>" class="btn btn-primary py-3 py-md-4 px-lg-5 d-block fs-5 fw-700 rounded-6">
+                        <div class="pt-4 pt-xxl-5 d-md-inline-block">
+                            <a href="tel:<?= $phone_number ?>" class="btn btn-primary py-3 py-md-4 px-md-5 d-block fs-5 fw-700 rounded-6">
                                 Call <?= $phone_number ?>
                             </a>
                         </div>
