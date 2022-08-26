@@ -3,11 +3,11 @@
 		<div class="row justify-content-center justify-content-lg-between align-items-center">
 			<div class="col-auto">
 				<div class="row gx-2 gx-md-3 text-dark justify-content-center">
-					<div class="col-12 text-center pb-3 d-lg-none">
+					<!-- <div class="col-12 text-center pb-3 d-lg-none">
 						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 							<?= renderImg("aiims.png", "logo") ?>
 						</a>
-					</div>
+					</div> -->
 					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
 					<div class="col-auto">|</div>
 					<div class="col-auto text-center"><?= $site ?></div>
@@ -28,7 +28,21 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-12 d-md-none pt-3">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-auto fw-700 text-tertiary"><u>Privacy Policies</u></div>
+					<div class="col-auto text-tertiary fw-700">|</div>
+					<div class="col-auto fw-700 text-tertiary"><u>Terms &amp; Conditions</u></div>
+				</div>
+				<hr>
+				<div class="text-center pt-2 d-md-none">
+					<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
+						<?= renderImg("aiims.png", "logo") ?>
+					</a>
+				</div>
+			</div>
 		</div>
+	</div>
 	</div>
 </footer>
 <a href="javascript:" id="return-to-top">
