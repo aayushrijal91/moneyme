@@ -124,7 +124,7 @@ include __DIR__ . '/header.php';
         <div class="py-12 d-none d-xl-block">
             <div class="fs-1 fw-900 letter-spacing-n03 line-height-1 text-center text-white">Multi-Award Winning<br> LoanOptions.ai</div>
             <div class="row justify-content-center pt-6">
-                <div class="col-12 col-xl-10 col-xxl-9">
+                <div class="col-12 col-xl-10">
                     <div class="row justify-content-between">
                         <div class="col-auto">
                             <div class="row gx-0 align-items-center">
@@ -139,8 +139,8 @@ include __DIR__ . '/header.php';
                             <div class="row gx-0 align-items-center">
                                 <div class="col-auto"><?= renderImg("aussie-fintech.png", "logo") ?></div>
                                 <div class="col text-white">
-                                    <div class="fs-6 opacity-05">Australia’s first AI-powered loan marketplace start-up</div>
-                                    <div class="fs-4 fw-700 line-height-1">Turns over $2.5 million</div>
+                                    <div class="fs-6 opacity-05">Australian intelligent comparison marketplace</div>
+                                    <div class="fs-4 fw-700 line-height-1">Complex Algorithms, Simple Loans</div>
                                 </div>
                             </div>
                         </div>

@@ -2,7 +2,7 @@
 include __DIR__ . '/env.php';
 
 $site = "LoanOptions.ai";
-$phone_number = "0432 406 340";
+$phone_number = "1300 060 684";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
 $no_reply_email = 'info@website.com.au';
